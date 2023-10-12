@@ -1,4 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Emblema+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
+:root {
+  --desktop: 1440px;
+  --font-emblema: 'Emblema One';
+  --font-lalezar: 'Lalezar'
+}
+
 .container_pack {
-  position: absolute;
-  z-index: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-top: 86px;
+  /* justify-content: center; */
+  max-width: var(--desktop);
+  border: 1px solid red;
+}
+.container_pack h2 {
+  font-family: var(--font-emblema);
+  color: #fff;
+  font-size: 42px;
+}
+
+.pack_card {
+  display: flex;
+  margin-top: 48px;
+  color: #fff;
+  gap: 4rem;
+}
+.pack_card .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btnMore {
+  margin-top: 10px;
+  background: rgb(129,38,43);
+  background: linear-gradient(180deg, rgba(129,38,43,1) 8%, rgba(5,55,79,1) 100%);
+  padding: .3rem 1.5rem;
+  border-radius: 10px;
+  font-family: var(--font-lalezar);
+  width: max-content;
 }
