@@ -17,7 +17,7 @@ const NavBar = () => {
       </div>
       <main>
         <h1>¡Creando Tu Huella Digital! <span className='change'>Un Click a la Vez</span></h1>
-        <div className='banner'><img src="/img/banner/banner.jpg" alt="" /></div>
+        <div className='banner'><img src="/img/banner/banner2.jpg" alt="" /></div>
       </main>
     </>
   )
