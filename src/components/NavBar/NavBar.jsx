@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <>
       <div className='navbar'>
-        <div className='navbar_logo'><img src="/svg/lgCreative.png" alt="logo_creative" /></div>
+        <div className='navbar_logo'><img src="/svg/Isotipo - PNG.png" alt="logo_creative" /></div>
         <div className='navbar_list'>
           <ul className='list_links'>
             <li className='list_link'>Nosotros</li>
@@ -15,7 +15,10 @@ const NavBar = () => {
           </ul>
         </div>
       </div>
-      <div className='banner'><img src="/img/banner/bannerCreative.jpg" alt="" /></div>
+      <main>
+        <h1>¡Creando Tu Huella Digital! <span className='change'>Un Click a la Vez</span></h1>
+        <div className='banner'><img src="/img/banner/banner.jpg" alt="" /></div>
+      </main>
     </>
   )
 }
