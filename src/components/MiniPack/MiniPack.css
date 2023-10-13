@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Emblema+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
+:root {
+  --desktop: 1440px;
+  --font-emblema: 'Emblema One';
+  --font-lalezar: 'Lalezar'
+}
+
+.miniPack {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.container_grid h2 {
+  font-family: var(--font-lalezar);
+  font-size: 42px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  grid-template-rows: repeat(3, max-content);
+  gap: 18px;
+}
+
+.grid-item {
+  overflow: hidden;
+  color: white;
+  border: 2px solid #fff;
+  border-radius: 20px;
+}
+.grid_main {
+  width: max-content;
+  align-items: end;
+}

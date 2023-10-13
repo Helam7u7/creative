@@ -13,9 +13,7 @@
   align-items: center;
   margin: auto;
   margin-top: 86px;
-  /* justify-content: center; */
   max-width: var(--desktop);
-  /* border: 1px solid red; */
 }
 .container_pack h2 {
   font-family: var(--font-lalezar);
@@ -41,22 +39,15 @@
   font-family: var(--font-lalezar);
   font-size: 33px;
 }
-.card {
-  /* border: 1px solid red; */
-}
 .pack.pack_digital .pack_card .card_img img{
   margin-left: 7rem;
-  /* border: 1px solid red; */
-}
-.card_img.uni img {
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 .btnMore {
   margin-top: 10px;
-  background: rgb(129,38,43);
-  background: linear-gradient(180deg, rgba(129,38,43,1) 8%, rgba(5,55,79,1) 100%);
-  padding: .3rem 1.5rem;
   border-radius: 10px;
+  background: linear-gradient(180deg, rgba(129, 38, 43, 0.78) 0%, #242A34 100%);
+  box-shadow: 3px 3px 11px 0px rgba(0,0,0,0.75);
+  padding: .3rem 1.5rem;
   font-family: var(--font-lalezar);
   font-size: 24px;
   width: max-content;

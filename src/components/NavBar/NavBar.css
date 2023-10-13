@@ -13,7 +13,8 @@
   height: 68px;
   backdrop-filter: blur(8px);
   margin: auto;
-  width: var(--desktop);
+  /* width: var(--desktop); */
+  max-width: 100vw;
 }
 .navbar_logo {
   margin-left: 125px;
@@ -49,7 +50,7 @@ main h1 {
   color: #fff;
   max-width: 647px;
   margin: 77px 0px 61px 77px;
-  z-index: 456;
+  /* z-index: 456; */
 }
 main h1 .change {
   font-family: 'Rowdies', sans-serif;

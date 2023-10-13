@@ -1,6 +1,8 @@
 import NavBar from './components/NavBar/NavBar'
 import './App.css'
 import Content from './components/Content/Content'
+import MiniPack from './components/MiniPack/MiniPack'
+import Footer from './components/Footer/Footer'
 
 function App() {
 
@@ -9,8 +11,9 @@ function App() {
     <NavBar/>
     <div className='body'>
       <Content/>
-      <img src="/img/banner/bg.png" alt="" />
+      <MiniPack/>
     </div>
+    <Footer/>
     </>
   )
 }
