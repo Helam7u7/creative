@@ -1,3 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Emblema+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
+:root {
+  --desktop: 1440px;
+  --font-emblema: 'Emblema One';
+  --font-lalezar: 'Lalezar'
+}
+
 .footer {
-  height: 500px;
+  background-color: #28425B;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  color: #fff;
+  padding: 27px 0;
+}
+.footer_inf p,h3{
+  font-family: var(--font-lalezar);
+}
+.footer_inf p {
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+.footer_inf .inf_title {
+  font-size: 26px;
+  text-decoration: underline;
+  margin-bottom: 28px;
+  margin-top: 50px;
+}
+.footer_wsp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
 }

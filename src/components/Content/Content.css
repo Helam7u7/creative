@@ -38,6 +38,10 @@
 .card h3 {
   font-family: var(--font-lalezar);
   font-size: 33px;
+  margin-top: 40px;
+}
+.pack.pack_digital {
+  margin-right: 7rem;
 }
 .pack.pack_digital .pack_card .card_img img{
   margin-left: 7rem;

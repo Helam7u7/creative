@@ -13,7 +13,7 @@
   height: 68px;
   backdrop-filter: blur(8px);
   margin: auto;
-  /* width: var(--desktop); */
+  width: var(--desktop);
   max-width: 100vw;
 }
 .navbar_logo {

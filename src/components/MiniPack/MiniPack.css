@@ -12,6 +12,9 @@
   justify-content: center;
   align-items: end;
 }
+.container_grid {
+  margin-left: 80px;
+}
 .container_grid h2 {
   font-family: var(--font-lalezar);
   font-size: 42px;
@@ -24,7 +27,7 @@
   display: grid;
   grid-template-columns: repeat(3, max-content);
   grid-template-rows: repeat(3, max-content);
-  gap: 18px;
+  gap: 30px;
 }
 
 .grid-item {
