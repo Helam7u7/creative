@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
+:root {
+  --font-lalezar: 'Lalezar'
+}
+
+.about{
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-image: url('/img/banner/bgAbout.png');
+  max-width: 1440px;
+  padding-top: 71px;
+}
+
+.about .about_title {
+  font-size: 70px;
+  color: #5295BA;
+  font-family: var(--font-lalezar);
+  text-align: center;
+  margin-bottom: 67px;
+}
+.about .about_title span {
+  color: #fff;
+  font-size: 70px;
+  font-family: var(--font-lalezar);
+}
+
+/* vision y mision */
+.vision_mision {
+  display: flex;
+  align-items: center;
+}
+
+.vision_mision .txt {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.vision_mision .txt h2,p{
+  color: #fff;
+  font-family: var(--font-lalezar);
+}
+.vision_mision .txt h2{
+  font-size: 60px;
+}
+.vision_mision .txt p{
+  font-size: 20px;
+}
+
+/* valores */
+.valores {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  padding-bottom: 140px;
+}
+.valores_grid {
+  margin: auto;
+  margin-right: 5rem;
+}
+.valores h2 {
+  color: #fff;
+  font-family: var(--font-lalezar);
+  font-size: 42px;
+  text-align: center;
+}
+.grid_icons {
+  margin-top: 38px;
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  grid-template-rows: repeat(2, max-content);
+  gap: 35px;
+}
+
+
+.icons {
+  margin-bottom: 12px;
+}
+.icons .icon_txt {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 6px;
+}

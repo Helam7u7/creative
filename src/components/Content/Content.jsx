@@ -7,21 +7,21 @@ const Content = () => {
         <h2>Área de Contenido Digital</h2>
         <div className='pack_card'>
           <div className='card'>
-            <div className='card_img'><img src="/img/packD/Paquete_1.png" alt="" /></div>
+            <div className='card_img'><img src="/img/packD/Paquete1.png" alt="" /></div>
             <h3>PAQUETE BÁSICO</h3>
             <span className='btnMore'>
               Ver más
             </span>
           </div>
           <div className='card'>
-            <div className='card_img'><img src="/img/packD/Paquete_2.png" alt="" /></div>
+            <div className='card_img'><img src="/img/packD/Paquete2.png" alt="" /></div>
             <h3>PAQUETE CR PLUS</h3>
             <span className='btnMore'>
               Ver más
             </span>
           </div>
           <div className='card'>
-            <div className='card_img uni'><img src="/img/packD/Paquete_3.png" alt="" /></div>
+            <div className='card_img uni'><img src="/img/packD/Paquete3.png" alt="" /></div>
             <h3>PAQUETE UNIVERSITARIO</h3>
             <span className='btnMore'>
               Ver más

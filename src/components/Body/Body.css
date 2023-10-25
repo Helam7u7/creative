@@ -1,0 +1,10 @@
+.body{
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-image: url('/img/banner/bgHome.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1440px;
+  padding-bottom: 160px ;
+}
