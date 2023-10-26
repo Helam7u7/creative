@@ -38,8 +38,8 @@
   width: 85px;
   display: flex;
   align-items: center;
-  padding: 8px 0 8px 10px;
-  
+  cursor: pointer;
+  padding: 8px 10px 8px 10px;
 }
 .btn_border .btn_circle {
   border: 2px solid #41B3C4 ;
@@ -47,7 +47,9 @@
   width: 38px;
   height: 30px;
   border-radius: 50px;
-
+}
+.btn_border.circle-right {
+  justify-content: flex-end;
 }
 /* Card */
 .container_paquete {
@@ -73,6 +75,11 @@
   margin-right: 20px;
   border-bottom: 2px solid #41B3C4;
   margin-bottom: 10px;
+  padding-bottom: 6px;
+  cursor: pointer;
+}
+.title.selected {
+  color: #41B3C4;
 }
 .paquete_card .card {
   position: relative;
@@ -81,6 +88,7 @@
   border: 2px solid #147281;
   z-index: 30;
   width: 350px;
+  height: 600px;
 }
 .paquete_card .card.midle {
   outline: 4px solid #44BBCD;
