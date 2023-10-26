@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+:root {
+  --font-Inter : 'Inter'
+}
+
+.paquete{
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-image: url('/img/banner/bgPaquete.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1440px;
+  padding-bottom: 160px ;
+  padding-top: 34px;
+}
+
+.paquete h2, h3, li {
+  font-family: 'Inter';
+  font-weight: 500;
+}
+
+/* Boton Anual */
+.paquete_btn {
+  justify-content: center;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.paquete_btn .btn_txt{
+  color: #fff;
+  font-size: 20px;
+}
+.paquete_btn .btn_border {
+  border-radius: 50px;
+  border: 2px solid #41B3C4;
+  width: 85px;
+  display: flex;
+  align-items: center;
+  padding: 8px 0 8px 10px;
+  
+}
+.btn_border .btn_circle {
+  border: 2px solid #41B3C4 ;
+  background-color: #41B3C4;
+  width: 38px;
+  height: 30px;
+  border-radius: 50px;
+
+}
+/* Card */
+.container_paquete {
+  color: #fff;
+  font-display: flex;
+  width: max-content;
+  margin: auto;
+  margin-top: 3rem;
+}
+.paquete_card .card_title {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.paquete_card {
+  display: flex;
+}
+.container_paquete .card_page {
+  display: flex;
+}
+.card_page .title {
+  width: 76px;
+  text-align: center;
+  margin-right: 20px;
+  border-bottom: 2px solid #41B3C4;
+  margin-bottom: 10px;
+}
+.paquete_card .card {
+  position: relative;
+  text-align: center;
+  padding: 18px 18px 30px 18px;
+  border: 2px solid #147281;
+  z-index: 30;
+  width: 350px;
+}
+.paquete_card .card.midle {
+  outline: 4px solid #44BBCD;
+  border: none;
+  z-index: 40;
+}
+.paquete_card ul li {
+  list-style: none;
+  font-size: 17px;
+}
+.paquete_card .card_price {
+  color: #41B3C4;
+  font-size: 42px;
+  font-weight: 400;
+  margin-bottom: 28px;
+}
