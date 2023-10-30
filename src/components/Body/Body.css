@@ -8,3 +8,8 @@
   max-width: 1440px;
   padding-bottom: 160px ;
 }
+@media (width: 400px), (width: 390px) {
+  .body{
+    padding-bottom: 4rem ;
+  }
+}

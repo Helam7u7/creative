@@ -20,8 +20,8 @@ const Footer = () => {
         <div><img src="/svg/mapa.png" alt="" /></div>
       </div>
       <div className='footer_wsp'>
-        <div><img src="/svg/qr.png" alt="" /></div>
-        <div><img src="/svg/btnwsp.png" alt="" /></div>
+        <div className='qr'><img src="/svg/qr.png" alt="" /></div>
+        <div className='btn'><img src="/svg/btnwsp.png" alt="" /></div>
       </div>
     </div>
   )

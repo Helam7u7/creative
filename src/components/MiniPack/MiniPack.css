@@ -55,8 +55,24 @@
   .miniPack {
     flex-direction: column;
     align-items: center;
+    gap: 4rem;
   }
   .container_grid {
+    display: flex;
+    flex-direction: column;
     margin-left: 0;
+    align-items: center;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(1, max-content);
+    grid-template-rows: repeat(9, max-content);
+    gap: 50px;
+  }
+  .grid .grid-item img {
+    width: 250px;
+  }
+  .grid_main img {
+    width: 300px;
   }
 }

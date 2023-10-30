@@ -112,7 +112,7 @@
     background-image: url("/img/about_img/vector1.png");
     background-repeat: none;
     background-size: cover;
-    width: 620px;
+    width: 550px;
     padding: 2rem;
     padding-right: 6rem;
   }
@@ -121,6 +121,7 @@
     background-repeat: none;
     background-size: cover;
     text-align: end;
+    width: 550px;
     padding: 2rem;
     padding-left: 6rem;
   }
@@ -132,5 +133,91 @@
   .vision_mision .txt h2 {
     font-size: 40px;
     margin: 0 40px;
+  }
+  .vision_mision .txt p{
+    font-size: 18px;
+    font-family: sans-serif;
+  }
+  .icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (width: 400px), (width: 390px) {
+  .about {
+    width: 100vw;
+  }
+  .about .about_title {
+    font-size: 35px;
+  }
+  .about .about_title span {
+    font-size: 35px;
+  }
+  .about .about_img {
+    display: none;
+  }
+  .valores {
+    align-items: center;
+    justify-content: center;
+  }
+  .valores .valores_grid {
+    margin: 0;
+  }
+  .valores_grid .grid_icons {
+    gap: 6rem;
+  }
+  .vision_mision .txt {
+    gap: 6rem;
+  }
+  .txt .txt_img.img_mision {
+    background-image: url("/img/about_img/vector1.png");
+    background-repeat: none;
+    background-size: cover;
+    width: 100vw;
+    padding: 2rem;
+    /* padding-right: 6rem; */
+  }
+  .txt .txt_img.img_vision {
+    background-image: url("/img/about_img/vector2.png");
+    background-repeat: none;
+    background-size: cover;
+    text-align: end;
+    padding: 2rem;
+    /* padding-left: 6rem; */
+  }
+  .txt .txt_vision {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  .vision_mision .txt h2 {
+    font-size: 26px;
+    margin: 0 40px;
+  }
+  .vision_mision .txt p{
+    font-size: 16px;
+    font-family: sans-serif;
+  }
+  .grid_icons {
+    margin-top: 38px;
+    display: grid;
+    grid-template-columns: repeat(1, max-content);
+    grid-template-rows: repeat(4, max-content);
+  }
+  .icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .icons .icon_txt  {
+    font-size: 18px;
+  }
+  .icons img  {
+    width: 160px;
+  }
+  .valores_grid h2 {
+    font-size: 30px;
   }
 }
