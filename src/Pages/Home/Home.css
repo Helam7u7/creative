@@ -1,7 +1,31 @@
+.main h1 {
+  font-family: 'Rowdies', sans-serif;
+  position: absolute;
+  font-size: 92px;
+  color: #fff;
+  max-width: 647px;
+  margin: 77px 0px 61px 77px;
+  /* z-index: 456; */
+}
+.main h1 .change {
+  font-family: 'Rowdies', sans-serif;
+  font-size: 92px;
+  color: #5295BA;
+}
+
 .banner {
-  
   height: max-content;
 }
 .banner img {
   max-width: 1440px;
+}
+
+@media (width: 400px), (width: 390px) {
+  .main h1 {
+    font-size: 65px;
+    margin: 3rem;
+  } 
+  .main h1 .change {
+    font-size: 65px;
+  }
 }

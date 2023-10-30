@@ -105,3 +105,23 @@
   font-weight: 400;
   margin-bottom: 28px;
 }
+.card .card_list {
+  text-align: start;
+}
+
+
+/* Tablet */
+@media (max-width: 768px) {
+  .paquete {
+    max-width: 768px;
+  }
+
+  .container_paquete .card_page {
+    justify-content: center;
+  }
+  .container_paquete .paquete_card {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+}
